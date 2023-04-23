@@ -5,13 +5,13 @@
   justify-content: space-between;
   margin-inline: auto;
   color: #cbd5e0;
-  padding-block: 2rem;
+  padding-block: 1rem;
   padding-inline: 0.5rem;
   border-top-width: 2px;
 }
 
 .input-field {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   display: block;
   width: 24rem;
 }

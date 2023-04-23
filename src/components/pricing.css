@@ -1,0 +1,29 @@
+.main-container {
+  width: 100%;
+  height: fit-content;
+  color: white;
+  background-color: #1f2937;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1280px;
+  margin-inline: auto;
+  height: 100%;
+  padding-inline: 0.75rem;
+  padding-block: 3rem;
+}
+
+.card-pricing {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 768px) {
+  .card-pricing {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

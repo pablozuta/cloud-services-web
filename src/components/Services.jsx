@@ -5,23 +5,24 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: "one",
-      subtitle: `Pallid nothing made still thing nevermore burden all and, so i a suddenly wretch eagerly aidenn at, remember the only.`,
+      title: "Almacenamiento",
+      subtitle: `Soluciones de almacenamiento en la nube para que puedas guardar tus archivos de manera segura y acceder a ellos desde cualquier lugar del mundo.`,
     },
+ 
     {
       id: 2,
-      title: "two",
-      subtitle: `Pallid nothing made still thing nevermore burden all and, so i a suddenly wretch eagerly aidenn at, remember the only.`,
+      title: "Servidores virtuales",
+      subtitle: `Servidores virtuales que te permiten alojar tus aplicaciones y sitios web en la nube, con acceso rápido y seguro desde cualquier lugar.`,
     },
     {
       id: 3,
-      title: "three",
-      subtitle: `Pallid nothing made still thing nevermore burden all and, so i a suddenly wretch eagerly aidenn at, remember the only.`,
+      title: "Copias de seguridad",
+      subtitle: `Copias de seguridad para que puedas proteger tus datos y recuperarlos en caso de emergencia, garantizando la continuidad de tu negocio.`,
     },
     {
       id: 4,
-      title: "four",
-      subtitle: `Pallid nothing made still thing nevermore burden all and, so i a suddenly wretch eagerly aidenn at, remember the only.`,
+      title: "Correo electrónico",
+      subtitle: `Soluciones de correo electrónico en la nube para que puedas enviar y recibir correos electrónicos de manera segura y accesible desde cualquier dispositivo.`,
     },
   ];
 
@@ -29,10 +30,9 @@ const Services = () => {
     <div name="servicios" className="w-full border-bajo md:h-screen bg-slate-300 mt-auto">
      <div className="altura"></div>
   <div className="flex flex-col items-center justify-center max-w-screen-xl mx-auto h-full px-3 py-12">
-    <h2 className="text-5xl font-bold text-center">Services</h2>
+    <h2 className="text-5xl font-bold text-center">Servicios</h2>
     <p className="text-xl py-8 text-gray-600 text-center">
-      At uttered there the late be bird answer, with more burned these my
-      something craven. Startled usby my marvelled on.
+    Sabemos que los usuarios buscan sistemas armoniosos y sin problemas. En nuestra empresa, ofrecemos el servicio que necesita para brindar agilidad y respaldo a tus clientes.
     </p>
     <div className="grid sm:grid-cols-2 gap-4 pt-4" style={{ flexWrap: "wrap" }}>
       {services.map(({ id, title, subtitle }) => (

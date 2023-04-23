@@ -11,20 +11,20 @@ const Support = () => {
   const supportLinks = [
     {
       id: 1,
-      title: "Technical",
-      subtitle: `All than answer mien the never more louder my, smiling a door there by quaff both, from shorn but napping.`,
+      title: "Tecnico",
+      subtitle: `Soporte técnico en línea para solucionar cualquier problema técnico que puedas tener en tu empresa. Nuestro equipo de expertos está disponible las 24 horas del día para brindarte soluciones rápidas y efectivas.`,
       icon: <MdOutlineComputer size={25} />,
     },
     {
       id: 2,
-      title: "Sales",
-      subtitle: `All than answer mien the never more louder my, smiling a door there by quaff both, from shorn but napping.`,
+      title: "Ventas",
+      subtitle: `Nuestro equipo de soporte de ventas está compuesto por expertos en la materia que están comprometidos en ayudar a nuestros clientes a encontrar la solución perfecta para sus necesidades.`,
       icon: <MdOutlineSupportAgent size={25} />,
     },
     {
       id: 3,
       title: "General",
-      subtitle: `All than answer mien the never more louder my, smiling a door there by quaff both, from shorn but napping.`,
+      subtitle: `Valoramos la satisfacción del cliente por encima de todo. Es por eso que ofrecemos un servicio de soporte general para ayudar a nuestros clientes a resolver cualquier problema o duda que puedan tener.`,
       icon: <MdPerson size={25} />,
     },
   ];
@@ -33,10 +33,9 @@ const Support = () => {
     <div name="support" className="w-full h-fit bg-slate-300">
       <div className="flex flex-col items-center justify-center max-w-screen-xl mx-auto h-full px-3 py-12">
         <div className="px-4 py-12">
-          <h2 className="text-5xl font-bold text-center">Support</h2>
+          <h2 className="text-5xl font-bold text-center">Soporte</h2>
           <p className="text-xl py-8  text-gray-600 text-center">
-            He bird repeating moment that repeating mortals rapping prophet a
-            with.
+          Nuestro equipo de soporte está conformado por profesionales experimentados en el campo de la tecnología en la nube. Estamos disponibles para nuestros clientes en todo momento, ya sea por teléfono, correo electrónico o chat en vivo.
           </p>
         </div>
 
@@ -60,7 +59,7 @@ const Support = () => {
 
         <div className="flex w-full items-center justify-center">
           <GreenBtn
-            title="contact us"
+            title="ponte en contacto"
             className="capitalize py-3 px-6 w-1/2 my-12"
           />
         </div>
