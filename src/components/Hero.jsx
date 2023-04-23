@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div
       name="home"
-      className="flex flex-col justify-between w-full h-screen bg-gray-900 text-white text-center md:text-left "
+      className="flex flex-col justify-between w-full  bg-gray-900 text-white text-center md:text-left "
     >
       <div className="grid md:grid-cols-2 mt-16 max-w-screen-xl m-auto px-3">
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
@@ -21,14 +21,16 @@ const Hero = () => {
           </p>
           <GreenBtn
             title="sign up"
-            className="capitalize py-3 px-6 sm:w-8/12 my-8"
+            className="capitalize py-3 px-6  my-8 ancho"
           />
         </div>
 
-        <div className="flex items-center justify-center">
-          <img src={hero} alt="hero" className="w-3/4 rounded-full" />
+        <div className="flex items-center justify-center imagen-hero ">
+          <img src={hero} alt="hero" className="w-3/4 " />
         </div>
       </div>
+      <br />
+      
     </div>
   );
 };

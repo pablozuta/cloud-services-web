@@ -4,10 +4,51 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
+  * {
+    padding: 0;
+    margin: 0;
+  }
   html {
     font-family: 'Poppins', sans-serif;
   }
+  body {
+    overflow-x: hidden;
+  }
+}
+.contenedor-hero{
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 16px;
+max-width: 1280px;
+margin: 0 auto;
+padding-left: 3px;
+padding-right: 3px;
 
+}
+.altura {
+  height: 4rem;
+  
+}
+
+.ancho{
+ 
+  width: 22rem;
+}
+
+
+@media (max-width: 868px) {
+  .imagen-hero {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .altura {
+    display: none;
+  }
+  .ancho{
+    align-self: center;
+  }
 }
