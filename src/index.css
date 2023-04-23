@@ -16,17 +16,7 @@
     overflow-x: hidden;
   }
 }
-.contenedor-hero{
-  display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-margin-top: 16px;
-max-width: 1280px;
-margin: 0 auto;
-padding-left: 3px;
-padding-right: 3px;
 
-}
 .altura {
   height: 4rem;
   
@@ -38,11 +28,7 @@ padding-right: 3px;
 }
 
 
-@media (max-width: 868px) {
-  .imagen-hero {
-    display: none;
-  }
-}
+
 
 @media (max-width: 768px) {
   .altura {

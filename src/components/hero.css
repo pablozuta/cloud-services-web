@@ -1,0 +1,33 @@
+:root {
+  --gray-900: #1a202c;
+}
+.container-hero {
+  height: 100vh;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  gap: 4rem;
+  display: flex;
+  padding-left: 2rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--gray-900);
+  color: #fff;
+ 
+}
+@media (min-width: 768px) {
+  .container-hero {
+    text-align: left;
+  }
+}
+
+.imagen-hero {
+  width: 90%;
+}
+
+@media (max-width: 968px) {
+    .imagen-hero {
+      display: none;
+    }
+  }
+

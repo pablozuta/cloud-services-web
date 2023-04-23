@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import {
   FaBars,
-  FaTimes,
-  FaFacebook,
-  FaTwitch,
-  FaLinkedinIn,
-  FaTwitter,
+  FaTimes
 } from "react-icons/fa";
 
 import GreenBtn from "./GreenBtn";
@@ -23,7 +19,7 @@ const Navbar = () => {
       id: 2,
       link: "servicios",
     },
-    
+
     {
       id: 4,
       link: "support",
@@ -55,7 +51,7 @@ const Navbar = () => {
         </ul>
 
         <div className="hidden md:flex mr-4">
-          <GreenBtn title="sign in" className="px-9 py-3" />
+          <GreenBtn title="Home" className="px-9 py-3" />
         </div>
 
         {/* burger icon  */}
@@ -99,7 +95,7 @@ const Navbar = () => {
           </div>
 
           <div className="mt-24 flex flex-col h-fit gap-12">
-            <GreenBtn className="px-9 py-3 capitalize" title="sign in" />
+         
 
             <ul className="capitalize">
               {links.map(({ id, link }) => (
@@ -120,24 +116,12 @@ const Navbar = () => {
               ))}
             </ul>
 
-            <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
-              <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer">
-                <FaFacebook size={25} />
-              </div>
-              <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer">
-                <FaTwitter size={25} />
-              </div>
-              <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer">
-                <FaLinkedinIn size={25} />
-              </div>
-              <div className="flex items-center justify-center rounded-md shadow-md shadow-lightColor p-3 cursor-pointer">
-                <FaTwitch size={25} />
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
     </div>
+
   );
 };
 
