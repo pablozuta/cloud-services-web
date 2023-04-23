@@ -2,7 +2,7 @@ import React from "react";
 import { FaPlusCircle } from "react-icons/fa";
 import GreenBtn from "./GreenBtn";
 
-const PriceCard = ({ priceCategory, dollar, features }) => {
+const PriceCard = ({ priceCategory, dollar, features, texto }) => {
   return (
     <section className="bg-white text-slate-900 m-4 rounded-xl overflow-hidden shadow-2xl">
       <div className="text-center bg-darkColor text-white py-4 uppercase">
@@ -18,8 +18,7 @@ const PriceCard = ({ priceCategory, dollar, features }) => {
       </div>
 
       <p className="text-2xl px-4 py-8 text-slate-500">
-        Now radiant parting quoth all spoken she tempest seeming of, gently door
-        you was many the the raven perched. Both.
+      {texto}
       </p>
 
       <div className="text-2xl">
@@ -32,7 +31,7 @@ const PriceCard = ({ priceCategory, dollar, features }) => {
         </div>
 
         <GreenBtn
-          title="get started"
+          title="contratar"
           className="capitalize w-full py-4 mt-14 rounded-none hover:border-none"
         />
       </div>

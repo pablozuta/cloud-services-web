@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer-container bg-gray-900">
       <div>
         <p className="font-bold uppercase mb-8 text-lightColor text-lg text-center md:text-left">
-          Subscribe to our newsletter
+          Subscribirse a nuestra lista de correo
         </p>
       </div>
 
@@ -16,7 +16,7 @@ const Footer = () => {
             type="text"
             name="email"
             className="input-field  p-2 mr-4 rounded-md mb-4 text-gray-900"
-            placeholder="Daily newsletter..."/>
+            placeholder="Tu email..."/>
           <center><button className="submit-footer">Submit</button></center>          
         </form>
       </div>

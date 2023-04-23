@@ -7,21 +7,21 @@ const Hero = () => {
   return (
     <main name="home" className="container-hero" >
 
-      <div>
+      <header>
         <p className="text-2xl text-gray-500">
           Servicio de alojamiento web seguro y confiable.
         </p>
         <h1 className="pt-1 pb-6 text-5xl md:text-7xl font-bold">
-          <span className="text-lightColor">ONNN</span> Web Services
+          <span className="text-lightColor">ALPHA</span> Web Services
         </h1>
         <p className="text-base font-light text-gray-500">
-          Un buen servicio de alojamiento web seguro y confiable debe ofrecer una amplia gama de características para garantizar la seguridad y la estabilidad del sitio web.
+          Un buen servicio de alojamiento web debe ofrecer una amplia gama de características para garantizar la seguridad y la estabilidad del sitio web.
         </p>
         <GreenBtn
-          title="sign up"
+          title="conoce mas"
           className="capitalize py-3 px-6  my-8 ancho"
         />
-      </div>
+      </header>
 
       <div className="imagen-hero">
         <img src={hero} alt="hero" />

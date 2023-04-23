@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./navbar.css"
 import {
   FaBars,
   FaTimes
@@ -21,20 +22,21 @@ const Navbar = () => {
     },
 
     {
-      id: 4,
-      link: "support",
+      id: 3,
+      link: "soporte",
     },
     {
-      id: 5,
-      link: "pricing",
+      id: 4,
+      link: "planes",
     },
   ];
 
   return (
-    <div className="w-screen h-20 z-20 fixed bg-gray-900 text-white px-5 ">
-      <div className="px-3 flex items-center justify-between w-full h-full">
+    <nav className="navbar-container">
+
+      <div className="container-links">
         <div className="flex items-center">
-          <h1 className="text-4xl font-bold">onnn</h1>
+          <h1 className="text-4xl font-bold">A.</h1>
         </div>
 
         <ul className="hidden md:flex">
@@ -120,7 +122,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
 
   );
 };
