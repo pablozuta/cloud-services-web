@@ -58,12 +58,7 @@ const Support = () => {
           ))}
         </div>
 
-        <div className="flex w-full items-center justify-center">
-          <GreenBtn
-            title="ponte en contacto"
-            className="capitalize py-3 px-6 w-1/2 my-12"
-          />
-        </div>
+        
       </div>
     </div>
   );

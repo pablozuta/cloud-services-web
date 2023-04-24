@@ -4,7 +4,7 @@ import GreenBtn from "./GreenBtn";
 
 const PriceCard = ({ priceCategory, dollar, features, texto }) => {
   return (
-    <section className="bg-white text-slate-900 m-4 rounded-xl overflow-hidden shadow-2xl">
+    <section className="bg-white text-slate-900 m-4 rounded-xl overflow-hidden shadow-2xl price-card-container">
       <div className="text-center bg-darkColor text-white py-4 uppercase">
         <p>{priceCategory}</p>
       </div>

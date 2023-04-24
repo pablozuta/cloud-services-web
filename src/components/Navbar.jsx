@@ -36,7 +36,7 @@ const Navbar = () => {
 
       <div className="container-links">
         <div className="flex items-center">
-          <h1 className="text-4xl font-bold">A.</h1>
+          <h1 className="text-4xl font-bold">Alpha.</h1>
         </div>
 
         <ul className="hidden md:flex">
@@ -53,7 +53,8 @@ const Navbar = () => {
         </ul>
 
         <div className="hidden md:flex mr-4">
-          <GreenBtn title="Home" className="px-9 py-3" />
+          
+          <Link to="subscribete" smooth duration={900}><GreenBtn title="Unete" className="px-9 py-3" /></Link>
         </div>
 
         {/* burger icon  */}
@@ -68,14 +69,14 @@ const Navbar = () => {
       <div
         className={
           navigation
-            ? "md:hidden fixed left-0 top-0 w-full h-full bg-gray-900/70 backdrop-blur"
+            ? "md:hidden fixed left-0 top-0 w-full h-full bg-gray-900/70 backdrop-blur "
             : ""
         }
       >
         <div
           className={
             navigation
-              ? "fixed left-0 top-0 w-4/5 h-full bg-gray-900 text-white p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-4/5 h-full bg-gray-900  p-10 ease-in duration-500"
               : "fixed top-0 left-[-100%] h-full p-10 duration-500 ease-in"
           }
         >
@@ -103,7 +104,7 @@ const Navbar = () => {
               {links.map(({ id, link }) => (
                 <li
                   key={id}
-                  className=" py-4 text-2xl tracking-wider cursor-pointer"
+                  className=" py-4 text-2xl tracking-wider cursor-pointer menu-links-movil"
                 >
                   <Link
                     onClick={() => setNavigation(false)}

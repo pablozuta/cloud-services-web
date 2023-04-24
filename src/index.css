@@ -16,6 +16,11 @@
     overflow-x: hidden;
   }
 }
+.price-card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .altura {
   height: 4rem;
