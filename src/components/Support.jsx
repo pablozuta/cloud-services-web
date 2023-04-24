@@ -31,6 +31,7 @@ const Support = () => {
 
   return (
     <div name="soporte" className="w-full h-fit bg-slate-300">
+      <div className="altura"></div>
       <div className="flex flex-col items-center justify-center max-w-screen-xl mx-auto h-full px-3 py-12">
         <div className="px-4 py-12">
           <h2 className="text-5xl font-bold text-center">Soporte</h2>

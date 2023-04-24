@@ -1,0 +1,11 @@
+.services-container {
+    width: 100%;
+    background-color: #CBD5E0; /* Replace #CBD5E0 with the desired color code */
+    margin-top: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .services-container {
+      height: 100vh;
+    }
+  }

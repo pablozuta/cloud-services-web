@@ -19,22 +19,17 @@
 
 .altura {
   height: 4rem;
-  
 }
 
-.ancho{
- 
+.ancho {
   width: 22rem;
 }
-
-
-
 
 @media (max-width: 768px) {
   .altura {
     display: none;
   }
-  .ancho{
+  .ancho {
     align-self: center;
   }
 }
