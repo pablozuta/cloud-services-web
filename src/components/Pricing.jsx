@@ -9,9 +9,7 @@ const Pricing = () => {
 
         <div className="px-4 py-12 text-center">
           <h2 className="text-5xl font-bold">Planes</h2>
-          <p className="text-xl py-8 text-gray-500">
-            Los planes de servicios son importantes porque ofrecen una forma clara y fácil de entender lo que se está ofreciendo. Los clientes pueden comparar diferentes planes y elegir el que mejor se adapte a sus necesidades y presupuesto.
-          </p>
+          
         </div>
 
         <div className="card-pricing">
