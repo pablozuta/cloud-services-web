@@ -12,7 +12,7 @@ const Hero = () => {
           Servicio de alojamiento web seguro y confiable.
         </p>
         <h1 className="pt-1 pb-6 text-5xl md:text-7xl font-bold">
-          <span className="text-lime-500">ALPHA</span> Web Services
+          <span className="text-gray-400">ALPHA</span> Web Services
         </h1>
         <p className="text-base font-light text-gray-500">
           Un buen servicio de alojamiento web debe ofrecer una amplia gama de características para garantizar la seguridad y la estabilidad del sitio web.
