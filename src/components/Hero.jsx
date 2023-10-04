@@ -24,7 +24,7 @@ const Hero = () => {
       </header>
 
       <div className="imagen-hero">
-        <img src={hero} alt="hero" />
+        <img src="https://www.svgrepo.com/show/249686/monitor-computer.svg" alt="hero" />
       </div>
       <br />
 

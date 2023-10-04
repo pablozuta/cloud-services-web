@@ -1,13 +1,8 @@
 import React, { useState } from "react";
-import "./navbar.css"
-import {
-  FaBars,
-  FaTimes
-} from "react-icons/fa";
-
-import GreenBtn from "./GreenBtn";
-
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import GreenBtn from "./GreenBtn";
+import "./navbar.css";
 
 const Navbar = () => {
   const [navigation, setNavigation] = useState(false);
@@ -36,7 +31,7 @@ const Navbar = () => {
 
       <div className="container-links">
         <div className="flex items-center">
-          <h1 className="text-4xl font-bold">Alpha.</h1>
+          <h1 className="text-4xl font-bold">CreaBytes.</h1>
         </div>
 
         <ul className="hidden md:flex">
@@ -53,8 +48,8 @@ const Navbar = () => {
         </ul>
 
         <div className="hidden md:flex mr-4">
-          
-          <Link to="subscribete" smooth duration={900}><GreenBtn title="Unete" className="px-9 py-3" /></Link>
+
+          <Link to="subscribete" smooth duration={900}><GreenBtn title="Contactanos" className="px-9 py-3" /></Link>
         </div>
 
         {/* burger icon  */}
@@ -86,7 +81,7 @@ const Navbar = () => {
                 onClick={() => setNavigation(false)}
                 className="text-3xl font-bold capitalize cursor-pointer"
               >
-                onnn
+                CreaBytes
               </h2>
               <div
                 onClick={() => setNavigation(false)}
@@ -98,7 +93,7 @@ const Navbar = () => {
           </div>
 
           <div className="mt-24 flex flex-col h-fit gap-12">
-         
+
 
             <ul className="capitalize">
               {links.map(({ id, link }) => (
